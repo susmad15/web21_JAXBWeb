@@ -3,10 +3,6 @@ package adapters;
 import java.time.LocalDate;
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
-/**
- *
- * @author Pascal Klug
- */
 public class DateAdapter extends XmlAdapter<String, LocalDate> {
 
     @Override

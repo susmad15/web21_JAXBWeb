@@ -46,7 +46,7 @@ public class CustomerController extends HttpServlet {
         
        // Remove this after first run
        // Then set to none
-       // server.persistCountries(countries);
+        server.persistCountries(countries);
     }
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
